@@ -18,7 +18,7 @@ public class CreateNewFile{
    myNewFile.println(fileContent);
    resultFile.close();   
   }catch(Exception ex){
-   System.out.println("文件创建失败");
+   System.out.println("");
    ex.printStackTrace();
   } 
  }
